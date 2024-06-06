@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div
+      class="container shadow-lg mt-5 p-5 mx-auto d-flex justify-content-center align-items-center flex-column"
+    >
+      <h2 class="header">Smart Login System</h2>
+      <div class="w-75 py-3 input-group change">
+        <input
+          type="email"
+          id="my_email"
+          class="form-control py-3 bg-transparent col"
+          placeholder="Enter your email"
+          aria-label="email"
+          aria-describedby="addon-wrapping"
+        />
+      </div>
+      <div class="w-75 py-3 input-group change">
+        <input
+          type="password"
+          id="my_password"
+          class="form-control py-3 bg-transparent col"
+          placeholder="Enter your password"
+          aria-label="password"
+          aria-describedby="addon-wrapping"
+        />
+      </div>
+      <div class="h4 text-danger d-none" id="word">
+        Fail in Email or Password
+      </div>
+
+      <button class="w-75 rounded-2 border-0 my-5 p-2 btn" id="login">
+        Login
+      </button>
+      <div>
+        <span>Don’t have an account?</span>
+        <a href="index1.html">Sign Up</a>
+      </div>
+    </div>
+    <script type="module" src="./javascript/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+.header {
+  color: #17a2b8;
+  font-size: 500;
+  font-family: sans-serif;
+}
+body {
+  padding: 0;
+  background-color: rgb(14%, 21%, 25%);
+}
+.inp {
+  background-color: transparent;
+  color: #fff;
+}
+.inp {
+  background-color: transparent;
+}
+/* .inp::placeholder {
+  color: #fff !important;
+} */
+.letter {
+  color: rgb(182, 182, 182);
+}
+.letter:focus {
+  color: rgb(182, 182, 182) !important;
+}
+.btn {
+  background-color: transparent;
+  color: rgb(9%, 64%, 72%);
+  border: solid rgb(9%, 64%, 72%) 2px !important;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #17a2b8;
+}
+h2 {
+  margin-bottom: 30px;
+}
+.form-control:focus {
+  background-color: transparent;
+}
+span {
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.form-floating > .form-control:focus ~ label {
+  transform: none;
+  color: rgb(182, 182, 182);
+}
+
+.form-floating > .form-control:focus ~ label::after {
+  inset: 1rem 5.375rem;
+}
+.col::placeholder {
+  color: rgb(182, 182, 182);
+}
+.col {
+  color: #fff !important;
+}
+.gr {
+  color: greenyellow;
+}
+.btnm {
+  border-color: goldenrod;
+  transition: all 1s;
+}
+.btnm:hover {
+  color: #fff !important;
+  background-color: goldenrod !important;
+}
+.btnm:hover a {
+  text-decoration: none;
+}
+#changex {
+  color: rgb(5%, 43%, 99%);
+}
+.nan {
+  margin-top: 100px !important;
+  height: 100%;
+}
+.main {
+  height: 300px;
+}
+.underline {
+  text-decoration: none;
+}
